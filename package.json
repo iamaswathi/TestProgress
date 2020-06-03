@@ -1,0 +1,28 @@
+{
+    "name": "progressbar",
+    "version": "1.0.0",
+    "description": "This is a project to show Progress Bar Demo that uses Vanilla JS.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/achuspran/TestProgress.git"
+    },
+    "author": "ASwathiPrakash",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/achuspran/TestProgress/issues"
+    },
+    "homepage": "https://github.com/achuspran/TestProgress#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "node-sass": "^4.14.1",
+        "nodemon": "^2.0.4"
+    }
+}
