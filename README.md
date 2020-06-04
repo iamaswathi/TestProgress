@@ -1,6 +1,7 @@
 # Progress Bar Demo
 
 ## I. Problem Statement
+
 Front End Assignment - Progress Bars
 Primary task: Using vanilla JavaScript or any JavaScript library of your choosing (no jQuery), implement the following (you can make it look however you like):
 
@@ -8,8 +9,8 @@ Primary task: Using vanilla JavaScript or any JavaScript library of your choosin
 
 [Endpoint here](http://pb-api.herokuapp.com/bars)
 
-
 ### Requirements
+
 * Must read data from the endpoint
 * Multiple bars
 * One set of controls that can control each bar on the fly
@@ -51,15 +52,15 @@ Example structure from the endpoint:
 }
 ```
 
-
 ### Breakdown
+
 | Key | Description |
 | ------ | ------ |
-| buttons |	The amount of buttons to display and what value they increment or decrement the selected bar. Randomly generates between 4 and 6 buttons. |
+| buttons | The amount of buttons to display and what value they increment or decrement the selected bar. Randomly generates between 4 and 6 buttons. |
 | bars | The number of progress bars to display and their default values. Randomly generates between 2 and 5 progress bars. |
 | limit | The equivalent to 100% of each bar. For example, the bar should be 100% filled when the progress hits 230. |
 
-## II. IN PROJECT
+## II. In Project
 
 1. `index.html` - to display the Progress Bars and the buttons to demonstate the increment and decrement in the progress.
 2. `progressBar.js` - vanilla javascript code to fetch the data from the endpoint to draw the progress bars, buttons and the dropdown list. Contains function to change the selected progress bar width as per the value in the button selected.
@@ -71,11 +72,11 @@ Example structure from the endpoint:
 8. `.gitignore` - file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
 9. `server.js` - local server setup
 
-## III. HOW TO USE THE CODE
+## III. How to use the code
 
-#### Clone this repo locally
-1. Run npm install
-2. Run npm start, the application starts listening to port 3000. If this port is already in use, you may update server.js file to listen to any other port number and run the command npm start again.
+1. Clone this repo locally
+2. Run npm install
+3. Run npm start, the application starts listening to port 3000. If this port is already in use, you may update server.js file to listen to any other port number and run the command npm start again.
 Now that we have started the server locally, our web application can be found at localhost:3000
-3. Open the browser and navigate to [http://localhost:3000](http://localhost:3000)
-4. To manually build the style.scss file changes to style.css file, you may run the command `npm run build-css`. Else `npm run watch-css` will automatically update the style.css file whenever style.scss is modified.
+4. Open the browser and navigate to [http://localhost:3000](http://localhost:3000)
+5. To manually build the style.scss file changes to style.css file, you may run the command `npm run build-css`. Else `npm run watch-css` will automatically update the style.css file whenever style.scss is modified.
