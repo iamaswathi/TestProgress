@@ -1,0 +1,47 @@
+#progressBarContent {
+  width: 50%;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  margin: 0 auto; }
+
+.title {
+  text-align: center; }
+
+.progressBarContainer {
+  width: 100%;
+  background-color: #dddddd;
+  margin-bottom: 20px;
+  box-shadow: 1px 2px 4px rgba(103, 99, 99, 0.5); }
+
+.progressBar {
+  width: 0%;
+  height: 35px;
+  background-color: #4CAF50;
+  text-align: center; }
+
+.progressBarLabel {
+  text-align: center;
+  line-height: 35px;
+  color: #000000; }
+
+button:focus,
+select:focus {
+  outline: none !important; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.flex-container > button {
+  background-color: #f8f8f8;
+  padding: 10px 15px;
+  margin: 0 0 20px 10px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #bababa; }
+
+.flex-container > button:hover {
+  cursor: pointer; }
+
+select {
+  height: 35px; }

@@ -2,10 +2,10 @@
     "name": "progressbar",
     "version": "1.0.0",
     "description": "This is a project to show Progress Bar Demo that uses Vanilla JS.",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
         "start": "node server.js",
-        "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+        "build-css": "node-sass --include-path scss src/scss/style.scss src/css/style.css",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {

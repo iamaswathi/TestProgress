@@ -1,0 +1,78 @@
+$text-align-center: center;
+$full-width: 100%;
+$no-width: 0%;
+$none: none;
+$cursor-pointer: pointer;
+$color-black: #000000;
+$color-progress: #4CAF50;
+$margin-padding-20px: 20px;
+$height-35px: 35px;
+$display-flex: flex;
+$wrap-type-wrap: wrap;
+$progress-bar-content-width: 50%;
+$progress-bar-content-border: 1px solid #cccccc;
+$progress-bar-content-margin: 0 auto;
+$progress-bar-container-bg-color: #dddddd;
+$progress-bar-container-bx-shadow: 1px 2px 4px rgba(103, 99, 99, 0.5);
+$flex-button-bg-color: rgb(248, 248, 248);
+$flex-button-padding: 10px 15px;
+$flex-button-margin: 0 0 20px 10px;
+$flex-button-border-radius: 5px;
+$flex-button-border-color: rgb(186, 186, 186);
+#progressBarContent {
+    width: $progress-bar-content-width;
+    border: $progress-bar-content-border;
+    padding: $margin-padding-20px;
+    margin: $progress-bar-content-margin;
+}
+
+.title {
+    text-align: $text-align-center;
+}
+
+.progressBarContainer {
+    width: $full-width;
+    background-color: $progress-bar-container-bg-color;
+    margin-bottom: $margin-padding-20px;
+    box-shadow: $progress-bar-container-bx-shadow;
+}
+
+.progressBar {
+    width: $no-width;
+    height: $height-35px;
+    background-color: $color-progress;
+    text-align: $text-align-center;
+}
+
+.progressBarLabel {
+    text-align: $text-align-center;
+    line-height: $height-35px;
+    color: $color-black;
+}
+
+button:focus,
+select:focus {
+    outline: $none !important;
+}
+
+.flex-container {
+    display: $display-flex;
+    flex-wrap: $wrap-type-wrap;
+}
+
+.flex-container>button {
+    background-color: $flex-button-bg-color;
+    padding: $flex-button-padding;
+    margin: $flex-button-margin;
+    text-align: $text-align-center;
+    border-radius: $flex-button-border-radius;
+    border-color: $flex-button-border-color;
+}
+
+.flex-container>button:hover {
+    cursor: $cursor-pointer;
+}
+
+select {
+    height: $height-35px;
+}
