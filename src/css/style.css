@@ -1,8 +1,12 @@
+body {
+  background-color: #000000; }
+
 #progressBarContent {
   width: 50%;
   border: 1px solid #cccccc;
   padding: 20px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #ffffff; }
 
 .title {
   text-align: center; }
@@ -32,16 +36,25 @@ select:focus {
   display: flex;
   flex-wrap: wrap; }
 
-.flex-container > button {
+.flex-container > button,
+select {
   background-color: #f8f8f8;
-  padding: 10px 15px;
-  margin: 0 0 20px 10px;
-  text-align: center;
+  padding: 8px 15px;
   border-radius: 5px;
-  border-color: #bababa; }
+  border: 1px solid #bababa;
+  color: #555555;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+.flex-container > button {
+  margin: 0 0 20px 10px;
+  text-align: center; }
 
 .flex-container > button:hover {
   cursor: pointer; }
 
 select {
-  height: 35px; }
+  height: 35px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  -webkit-user-select: none;
+  -moz-user-select: none; }
