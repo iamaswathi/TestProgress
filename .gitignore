@@ -9,6 +9,6 @@ jspm_packages/
 # Optional npm cache directory
 .npm
 
-# Logs
+# Logs 
 logs
 *.log

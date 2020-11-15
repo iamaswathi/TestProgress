@@ -65,12 +65,14 @@ Example structure from the endpoint:
 1. `index.html` - to display the Progress Bars and the buttons to demonstate the increment and decrement in the progress.
 2. `progressBar.js` - vanilla javascript code to fetch the data from the endpoint to draw the progress bars, buttons and the dropdown list. Contains function to change the selected progress bar width as per the value in the button selected.
 3. `progressBar.min.js` - minified version of progressDemo.js.
-4. `style.scss` - sass file for the styles. Whenever thi sfile is updated, the `watch-css` script in package.json triggers the css build to get the modifications updated in associated style.css file.
-5. `style.css` - css style to portray progess in each progress bars, display the buttons and the dropdown list. Uses flex box to display the Dropdown list and Buttons.
-6. `style.min.css` - minified version of progressDemo.min.css.
-7. `package.json` - hold the metadata and the dependencies of the project.
-8. `.gitignore` - file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
-9. `server.js` - local server setup
+4. `progressBar.test.js` - test scripts.
+5. `style.scss` - sass file for the styles. Whenever thi sfile is updated, the `watch-css` script in package.json triggers the css build to get the modifications updated in associated style.css file.
+6. `style.css` - css style to portray progess in each progress bars, display the buttons and the dropdown list. Uses flex box to display the Dropdown list and Buttons.
+7. `style.min.css` - minified version of progressDemo.min.css.
+8. `package.json` - hold the metadata and the dependencies of the project.
+9. `.eslintrc.json` - eslint rules.
+10. `.gitignore` - file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
+11. `server.js` - local server setup
 
 ## III. How to use the code
 
