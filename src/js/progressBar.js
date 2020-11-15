@@ -1,9 +1,8 @@
 /** 
- * Created on 04-Jun-2020
+ * Created on 14-Nov-2020
  * Author - Aswathi Prakash
  * 
 */
-const fetch = require('node-fetch');
 
 /**
  * drawBarsInDOM() - iterates through the data.bars array to 

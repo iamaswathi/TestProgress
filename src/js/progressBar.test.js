@@ -10,7 +10,7 @@ describe('Fetch data', () => {
       )
     })
   })
-describe('Fetch3', () => {
+describe('Fetch', () => {
     const desiredResult = {
         bars: [51, 50],
         buttons: [22, 5, -26, -16],
@@ -27,7 +27,7 @@ describe('Fetch3', () => {
 
 
 
-describe('Fetch', () => {
+describe('Fetch from file', () => {
     it('should call fetch with url', () => {
       // Setting a mock Promise response for this test
       jest.spyOn(loadProgressBars, 'fetch').mockImplementation(
