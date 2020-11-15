@@ -21,7 +21,12 @@ body {
   width: 0%;
   height: 35px;
   background-color: #4CAF50;
-  text-align: center; }
+  text-align: center;
+  -webkit-transition: 300ms linear;
+  -moz-transition: 300ms linear;
+  -o-transition: 300ms linear;
+  -ms-transition: 300ms linear;
+  transition: 300ms linear; }
 
 .progressBarLabel {
   text-align: center;

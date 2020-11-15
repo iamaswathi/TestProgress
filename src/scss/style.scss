@@ -16,6 +16,7 @@ $progress-bar-content-border: 1px solid #cccccc;
 $progress-bar-content-margin: 0 auto;
 $progress-bar-container-bg-color: #dddddd;
 $progress-bar-container-bx-shadow: 1px 2px 4px rgba(103, 99, 99, 0.5);
+$progress-bar-transition: 300ms linear;
 $flex-button-bg-color: rgb(248, 248, 248);
 $flex-button-padding: 8px 15px;
 $flex-button-margin: 0 0 20px 10px;
@@ -51,6 +52,11 @@ body {
     height: $height-35px;
     background-color: $color-progress;
     text-align: $text-align-center;
+    -webkit-transition: $progress-bar-transition;
+    -moz-transition: $progress-bar-transition;
+    -o-transition: $progress-bar-transition;
+    -ms-transition: $progress-bar-transition;
+    transition: $progress-bar-transition;
 }
 
 .progressBarLabel {
